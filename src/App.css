@@ -7,3 +7,53 @@ body {
   overflow-x: auto;
   flex-wrap: nowrap;
 }
+
+/* header and navigation */
+
+ .movies-header {
+  margin: 30px;
+  text-align: center;
+  color: white;
+  font: "Times New Roman", Times, serif;;
+}
+
+.signIn-btn {
+  color: white;
+}
+
+.signIn-btn:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+/* search bar */
+
+.form-control {
+  width: 50%;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+}
+
+/* movies */
+
+.image-container:hover {
+  transform: scale(1.05)
+}
+
+::-webkit-scrollbar {
+width: 10px;
+height: 10px;
+}
+::-webkit-scrollbar-track-piece  {
+background-color: black;
+}
+::-webkit-scrollbar-thumb:horizontal {
+height: 10px;
+background-color: gray;
+border-radius: 5px;
+}
+
+
+

@@ -1,7 +1,6 @@
 import React, { Fragment }  from 'react';
 import { Link } from "react-router-dom";
 
-
 const MovieList = (props) => {
   return (
     // return movie list

@@ -5,7 +5,6 @@ import MoviesHeading from './components/Header';
 import SearchBar from './components/SearchBar';
 
 export function Home() {
-
   const [movies, setMovies] = useState([]);
   const [searchValue, setSearchValue] = useState('');
 

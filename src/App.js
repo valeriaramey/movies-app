@@ -4,9 +4,7 @@ import './App.css';
 import { Routes, Route } from "react-router-dom";
 import { Home, Details, Signin } from "./pages";
 
-
 const App = () => {
-
   return (
       <div>
         <Routes>

@@ -7,16 +7,13 @@ const MovieList = (props) => {
     // return movie list
       <Fragment>
         {props.movies.map((movie, index) => (
-            <div className='image-container m-3' key={movie.imdbID}>
-              <img src={movie.Poster} alt ={movie.Title}></img>
-              <Link className="btn btn-primary" to={`/details/${movie.imdbID}`}>
-                Movie Details
-              </Link>
+            <div className='image-container m-3'>
+               <Link to="details"><img src={movie.Poster} alt ={movie.Title}></img></Link>
             </div>
           ))}
       </Fragment>
 
-    );
+  );
 };
 
 export default MovieList;
